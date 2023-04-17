@@ -1,0 +1,1 @@
+random.choice() - selects random value from list
