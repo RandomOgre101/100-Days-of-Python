@@ -41,14 +41,4 @@ while cont:
             score.game_over()
 
 
-
-
-
-
-
-
-
-
-
-
 screen.exitonclick()
