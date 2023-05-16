@@ -28,10 +28,10 @@ while len(correct_guesses) < 50:
         pen.write(f"{answer}", align="left", font=FONT)
 
     elif answer == "Exit":
-        missing_states = []
-        for state in all_states:
-            if state not in correct_guesses:
-                missing_states.append(state)
+        missing_states = [state for state in all_states if state not in correct_guesses]
+        # for state in all_states:
+        #     if state not in correct_guesses:
+        #         missing_states.append(state)
         missing = pd.DataFrame(missing_states)
         missing.to_csv("states_to_learn.csv")
         break
