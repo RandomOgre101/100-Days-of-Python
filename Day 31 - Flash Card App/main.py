@@ -39,6 +39,7 @@ def known():
 
 
 ## UI SETUP
+##
 window = Tk()
 window.title("Flashy")
 window.config(bg=BACKGROUND_COLOR, padx=50, pady=50)
@@ -61,7 +62,6 @@ no_button.grid(column=0, row=1)
 tick_image = PhotoImage(file="right.png")
 yes_button = Button(image=tick_image, highlightthickness=0, bg=BACKGROUND_COLOR, command=known)
 yes_button.grid(column=1, row=1)
-
 
 
 next_card()
