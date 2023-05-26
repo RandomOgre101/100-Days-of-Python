@@ -39,7 +39,6 @@ def known():
 
 
 ## UI SETUP
-##
 window = Tk()
 window.title("Flashy")
 window.config(bg=BACKGROUND_COLOR, padx=50, pady=50)
