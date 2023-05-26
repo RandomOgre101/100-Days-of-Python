@@ -62,7 +62,6 @@ tick_image = PhotoImage(file="right.png")
 yes_button = Button(image=tick_image, highlightthickness=0, bg=BACKGROUND_COLOR, command=known)
 yes_button.grid(column=1, row=1)
 
-
 next_card()
 
 window.mainloop()
