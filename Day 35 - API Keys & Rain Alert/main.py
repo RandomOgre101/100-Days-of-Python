@@ -28,7 +28,7 @@ for hour_data in weather_slice:
 
 if will_rain:
     message = client.messages.create(
-    from_='number0',
-    body='It finna rain brev',
+    from_='number',
+    body="It's going to rain",
     to='number'
     )
