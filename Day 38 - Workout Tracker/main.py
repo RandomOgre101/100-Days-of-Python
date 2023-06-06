@@ -45,7 +45,7 @@ for exercise in result["exercises"]:
             'time': time,
             'exercise': exercise["name"].title(),
             'duration': exercise["duration_min"],
-            'calories': exercise["nf_calories"],
+            'calories': exercise["nf_calories"]
         }
     }
 
