@@ -37,7 +37,6 @@ time = datetime.now().strftime("%X")
 r1 = requests.post(exercise_endpoint, json=parameters, headers=headers)
 result = r1.json()
 
-
 for exercise in result["exercises"]:
     sheety_params = {
         'workout': {
