@@ -12,5 +12,6 @@ if sheet_data['prices'][0]["iataCode"] == "":
     for row in sheet_data['prices']:
         row['iataCode'] = flight_search.get_code(row['city'])
 
+
 data_manager.put_iata()
 
