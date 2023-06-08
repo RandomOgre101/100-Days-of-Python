@@ -1,8 +1,8 @@
 import requests
 from datetime import datetime, timedelta
 
-TEQUILA_ENDPOINT = "https://api.tequila.kiwi.com"
-TEQUILA_KEY = "N21c0-INfwr5pVycTrR-5ebzDkFXmuEa"
+TEQUILA_ENDPOINT = ""
+TEQUILA_KEY = ""
 
 
 class FlightData:
