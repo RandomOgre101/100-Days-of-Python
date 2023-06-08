@@ -1,8 +1,8 @@
 import requests
 from twilio.rest import Client
 
-TWILIO_SID = "ACe43edbd9e7497672d0644e9b64cc5706"
-TWILIO_TOKEN = "e3d398542ae3f8f5fc5a02e26ead8b52"
+TWILIO_SID = ""
+TWILIO_TOKEN = ""
 
 class NotificationManager:
     
