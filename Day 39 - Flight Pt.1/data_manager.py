@@ -11,7 +11,6 @@ class DataManager:
     def get_sheety(self):
         response = requests.get(url=SHEETY_ENDPOINT)
         self.data = response.json()
-        print(self.data)
         return self.data
 
 
@@ -23,4 +22,3 @@ class DataManager:
                 }
             }
             response = requests.put(url=f"{SHEETY_ENDPOINT}/{city['id']}", json=updated)
-            print(response.text)
