@@ -1,7 +1,11 @@
 import requests
 from flight_data import FlightData
 
+<<<<<<< HEAD
 TEQUILA_ENDPOINT = "https://api.tequila.kiwi.com"
+=======
+TEQUILA_ENDPOINT = ""
+>>>>>>> fb909f0c579e4a084718d83cee4db9ab2f73b9d7
 TEQUILA_KEY = ""
 
 
