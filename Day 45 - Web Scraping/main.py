@@ -32,6 +32,6 @@ for article in articles:
 
 highest = max(article_upvotes)
 index = article_upvotes.index(highest)
-
+print(index)
 print(article_texts[index])
 
